@@ -2,7 +2,7 @@ import 'package:clima/services/location.dart';
 import 'package:clima/services/networking.dart';
 
 class WeatherModel{
-  static const _kApiKey='1dd19f4a64f55b28711e017f89fc8a0b';
+  static const _kApiKey='use your own key😁';
   static const _kOpenWeatherMapUrl='https://api.openweathermap.org/data/2.5/weather';
 
   static Future<dynamic> getLocationWeather() async{
